@@ -5,12 +5,12 @@ import {AppRoute} from '../../constants/constans';
 
 import styles from './ImageBreedPage.module.scss';
 
-function ImageBreedPage({ picture }: {picture: BreedInfo}) {
+function ImageBreed({ picture }: {picture: BreedInfo}) {
   const { id, image, name} = picture;
 
   return (
     <Link
-      className={styles.images}
+      className={styles.imageContainer}
       to={`${AppRoute.Breeds}/${id}`}
       key={id}
     >
@@ -26,4 +26,4 @@ function ImageBreedPage({ picture }: {picture: BreedInfo}) {
   );
 }
 
-export default ImageBreedPage;
+export default ImageBreed;

@@ -19,7 +19,7 @@ export enum BtnSize {
 export enum BtnVariant {
   Primary = 'Primary',
   Secondary = 'Secondary',
-  SpecSize = 'SpecSize',
+  Special = 'Special',
 }
 
 export enum TypeElement {
@@ -44,4 +44,9 @@ export enum TypeModal {
   Like = 'Likes',
   Dislike = 'Dislikes',
   Favorites = 'Favorites',
+}
+
+export enum SortType {
+  Asc = 'Asc',
+  Desc = 'Desc',
 }
